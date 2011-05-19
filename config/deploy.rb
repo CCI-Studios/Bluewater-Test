@@ -3,14 +3,14 @@ set :stages, %w(staging production)
 set :default_stage, "staging"
 require "capistrano/ext/multistage"
 
-set :application, "Sarnia Gives"
+set :application, "Bluewater Health Foundation"
 
 # repository info
-set :repository,  "git@github.com:CCI-Studios/Sarnia-Gives.git"
+set :repository,  "git@github.com:CCI-Studios/Bluewater-Test.git"
 set :scm, :git
 
 # ssh settings
-set :user, "sgives"
+set :user, "staging"
 set :use_sudo, false
 
 # Joomla
