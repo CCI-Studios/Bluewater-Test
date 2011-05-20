@@ -4,15 +4,16 @@
 class ComDonateDatabaseRowTransaction extends KDatabaseRowTable
 {
 	public function save()
-	{
-		$result = parent::save();
+	{ 
+		$isNew = $this->isNew();
+		$saved = parent::save();
 		
-		if ($result) {
+		if ($isNew && $saved) {
 			$this->_sendReceipt();
 			$this->_sendAdmin();
 		}
-		
-		return $result;
+
+		return $saved;
 	}
 	
 	protected function _sendReceipt() {
@@ -24,8 +25,7 @@ class ComDonateDatabaseRowTransaction extends KDatabaseRowTable
 		<h1>Thank You for your donation</h1>
 		<p>
 			Name: {$this->lastname}, {$this->firstname}<br/>
-			Address: {$this->address1}<br/>".
-			($this->address2 !== '')? $this->address2.'<br/>':''."
+			Address: {$this->address1}, {$this->address2}
 		</p>
 		
 		<p>
