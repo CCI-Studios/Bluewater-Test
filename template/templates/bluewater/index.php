@@ -76,7 +76,7 @@ error_reporting(0);
   <b>Serving the three hospital sites of Lambton County</b>
   </td>
   <td align="right" bgcolor="#FFFFFF">
-  <b>Sunday, 22 May 2011</b>&nbsp;</td>
+  <b><?php echo date('j, d F Y')?></b>&nbsp;</td>
   </tr>
 </table>
 
