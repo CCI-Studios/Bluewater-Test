@@ -172,6 +172,12 @@ error_reporting(0);
       </table></td>
     <td width="1" bgcolor="#FFFFFF">&nbsp;</td>
     <td class="main" valign="top" bgcolor="#FFFFFF"> <table width="100%" border="0" cellspacing="0" cellpadding="0">
+	    <tr>
+		 <td>
+			<jdoc:include type="message" />
+		 </td>
+			
+		</tr>
         <tr> 
           <td valign="top" class="maincontent"> 
 				<jdoc:include type="component" />				
