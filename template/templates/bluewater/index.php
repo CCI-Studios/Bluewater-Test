@@ -111,7 +111,7 @@ error_reporting(0);
     			<td class="modulecontent"><div class="modulecontent">
 			
 <table width="100%" border="0" cellpadding="0" cellspacing="0"> 
-<tr align="left"><td><a href="index.php?option=com_frontpage&amp;Itemid=1" class="mainlevel" >Home</a></td></tr> 
+<tr align="left"><td><a href="/" class="mainlevel" >Home</a></td></tr> 
 <tr align="left"><td><a href="index.php?option=com_content&amp;task=view&amp;id=20&amp;Itemid=35" class="mainlevel" id="active_menu">About Us</a> 
  
 <div style="padding-left: 4px"><img src="http://www.bluewaterhealthfoundation.ca/templates/xp.winupdate.like/images/indent1.png" alt="" /><a href="index.php?option=com_content&amp;task=view&amp;id=23&amp;Itemid=39" class="sublevel" >Board of Directors</a></div> 
