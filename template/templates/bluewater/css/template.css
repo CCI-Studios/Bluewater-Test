@@ -1,3 +1,6 @@
+@import url(./forms.css);
+@import url(./forms1.css);
+
 .componentheading {
 	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
 	font-size: 13px;
@@ -8,3 +11,19 @@
 }
 
 hr { margin: 1em 0; }
+
+
+#system-message {
+	margin: 0 15px;
+}
+
+#system-message .error {
+	color: red;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#system-message .message {
+	font-size: 11px;
+	text-align: left;
+}
