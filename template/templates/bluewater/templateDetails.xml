@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <install version="1.5" type="template">
-	<name>NAME</name>
+	<name>Bluewater</name>
 	<version>1.0.0</version>
-	<creationDate>DATE</creationDate>
+	<creationDate>May 21, 2011</creationDate>
 	<author>Jonathan Bennett</author>
 	<authorEmail>jbennett@ccistudios.com</authorEmail>
 	<authorUrl>http://www.ccistudios.com</authorUrl>
@@ -28,6 +28,8 @@
 	</files>
 
 	<positions>
+		<position>sidebar1</position>
+		<position>sidebar2</position>
 		<position>hidden</position>
 	</positions>
 

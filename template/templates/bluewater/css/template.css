@@ -1,0 +1,10 @@
+.componentheading {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #6E89DD;
+	text-align: left;
+	vertical-align: middle;
+}
+
+hr { margin: 1em 0; }
